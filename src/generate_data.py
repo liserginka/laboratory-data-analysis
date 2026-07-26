@@ -24,7 +24,7 @@ DATA_DIR.mkdir(exist_ok=True)
 
 np.random.seed(7)
 
-# Градуировка Fe взята из предыдущего кейса (см. metal-calibration-analytics):
+# Градуировка Fe взята из предыдущего кейса (см. automated-calibration-framework):
 # A = k*C + b, k=0.8373, b=0.0113 -> используем для генерации "сырого" сигнала
 K_FE, B_FE = 0.8373, 0.0113
 
